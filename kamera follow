@@ -1,0 +1,10 @@
+CAMERA FOLLOW:
+
+public Tramsform player;  /drag player to that object
+public Vector3  offset;
+
+void Update()
+{
+  transform.position = player.position + offest;
+}
+
