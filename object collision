@@ -1,0 +1,11 @@
+OBJECT COLLISION:
+
+
+public PlayerMovment movment;
+void OnCollisionEnter (Collision collisionInfo)
+{
+  if( collisionInfo.collider.tag == "Obstacle")
+  {
+    movment.enabled = false; /drag player movment to thet object
+  }
+}
