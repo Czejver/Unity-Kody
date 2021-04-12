@@ -21,25 +21,5 @@ if( Input.GetKey("s"))
 
 
 
-devassets.com - 3d models
-
-Debug.Log("Hello world"); 
-
-public component name_of_component;
-public Rigidbody rb; 
-
-rb.useGravity = false;
-rb.AddForce(x, y, z);
-
-Time.deltaTime --> amount of seconds since the computer drew the last frame
-rb.AddForce(x, y, z * Time.deltaTime);
-
-
-void Update()
-{}
-void FixedUpdate()//for physic
-{}
-physic material
-
 
 
